@@ -1,0 +1,68 @@
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+  .signup-form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-top: 30px;
+  }
+  
+  .signup-form label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .signup-form input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .signup-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .signup-form button:hover {
+    background-color: #8200d9;
+  }
+.nav-link{
+  text-align: justify;
+  box-sizing:border-box;
+  
+}
+input{
+  display: flex;
+  margin-left: 100px;
+}
+.col-4{
+  display:flex;
+
+}
+input{
+  padding: 20px;
+}
+.container{
+  margin-top: 50px;
+}
+.col-md-6{
+  padding: 10px;
+}
